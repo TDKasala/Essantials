@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    color: #1f0505;
+    padding: 20px 0;
+    text-align: center; /* Center align the content */
+}
+
+header h1,
+header h2 {
+    margin: 0 auto; /* Center align */
+    max-width: 80%; /* Set maximum width */
+    text-align: center;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto; /* Center align the image */
+    max-width: 50%; /* Adjust size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: #399beb;
+    text-decoration: none;
+}
+/* Hero Section Styles */
+#hero {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Products Section Styles */
+#products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.slides {
+    display: flex;
+    overflow-x: auto;
+}
+
+.slides img {
+    width: 75%;
+    max-width: 200px;
+    margin-right: 20px;
+}
+.invitation,
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.invitation h3,
+.contact-section h3 {
+    margin-top: 0;
+}
+
+/* Services Section Styles */
+#services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section {
+    margin-bottom: 20px;
+    text-align: center; /* Reset text alignment for inner content */
+}
+
+.contact-section h3 {
+    margin-top: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-item {
+        margin-right: 10px;
+    }
+}
